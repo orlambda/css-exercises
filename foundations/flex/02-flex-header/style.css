@@ -3,6 +3,8 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -16,6 +18,14 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
